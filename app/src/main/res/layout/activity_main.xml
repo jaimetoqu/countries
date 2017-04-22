@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jaimetoqu.countries.views.MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text="Codigo de pais:"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/codeEt"
+        android:padding="8dp"
+        android:hint="cl"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:layout_below="@+id/textView1"
+        android:textColor="@android:color/black"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textSize="16sp"
+        android:text="Nombre:"
+        android:padding="8dp"
+        android:layout_below="@+id/codeEt"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:text="Capital:"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_below="@+id/nameTv"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/capitalTv"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="Region:"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_below="@id/capitalTv"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/regionTv"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:text="Languages:"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:layout_below="@id/regionTv"
+        android:textColor="@android:color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/languageTv"
+        android:padding="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_below="@+id/languageTv"
+        android:paddingRight="30dp"
+        android:drawableRight="@mipmap/ic_search_white_24dp"
+        android:background="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
